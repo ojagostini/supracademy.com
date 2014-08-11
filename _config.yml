@@ -1,0 +1,14 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      true
+
+# Site settings
+title: SuprAcademy
+email: your-email@domain.com
+description: ""
+baseurl: ""
+url: "http://supracademy.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
