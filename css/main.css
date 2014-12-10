@@ -1,11 +1,29 @@
-.navbar {
-	margin-bottom: 0px;
-}
-
 body {
 	background-color: #E6E8E3;
 }
 
+/* Navbar */
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+	color: orange;
+	background-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: orange;
+	background-color: transparent;
+}
+
+/* Banner */
 #banner img {
 	min-width: 100%;
 }
@@ -30,14 +48,14 @@ body {
                                     support rgba */
   background: rgba(0, 0, 0, .5);
   box-shadow: 0 1px 0 0 rgba(255,255,255,.35);
-}	
+}
 
 @media(max-width: 768px){
 	#banner-overlay {
 		width: 100%;
 		height: 100%;
 		top: 0%;
-	}	
+	}
 	#banner-overlay-text {
 		display: none; /* Hide text so button stays in banner */
 	}
@@ -50,27 +68,59 @@ body {
 		width: 100%;
 		height: 100%;
 		top: 0%;
-	}	
+	}
 }
 @media(min-width:992px){
 	#banner-overlay {
 		height: auto;
 		width: 40%;
 		top: 35%;
-	}	
+	}
 }
 
-#the-why {
-	padding-top: 20px;
-	background-color: #E6E8E3;
+/* Home */
+
+.strip {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.strip h1 {
+	margin-top: 0px;
+}
+
+#triangle-of-success {
+	background-color: #FFF;
 }
 
 #the-how {
-	margin-top: 10px;
+	background-color: #ffb328;
+	background-image: url("img/notes.jpg");
+}
+
+#the-how .panel {
+	height: 330px;
 }
 
 #the-how .panel-body {
 	height: 100%;
+}
+
+#the-how img {
+	height: 300px;
+}
+
+#the-how .left-img {
+	margin-right: 20px;
+}
+
+#the-how h2 {
+	margin-top: 0px;
+}
+
+/* Contact Us */
+address {
+	font-size: 1.25em;
 }
 
 /* Syntax highlighting styles */
