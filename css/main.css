@@ -39,7 +39,7 @@ h1 {
 	position: absolute;
 	width: 40%;
 	right: 0px;
-	top: 35%;
+	top: 45%;
 	padding: 40px;
 	z-index: 200;
 	color: white;
@@ -97,6 +97,38 @@ h1 {
 }
 
 /* The How */
+#the-how {
+	background-color: #fff;
+}
+#the-how.strip {
+	padding-bottom: 0px;
+}
+#the-how .card{
+	height: 600px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#component-in-person {
+	background-image: url("img/component-in-person.jpg");
+}
+.card-overlay {
+	position: absolute;
+	width: 100%;
+	right: 0px;
+	bottom: 0;
+	padding: 40px;
+	z-index: 200;
+	color: white;
+	background: rgb(255, 255, 255); /* Fall-back for browsers that don't
+	support rgba */
+	background: rgba(0, 0, 0, .5);
+}
+#component-online {
+	background-image: url("img/component-online.png");
+}
+#component-parent {
+	background-image: url("img/component-parent.jpg");
+}
 /*#the-how {
 	background-color: #ffb328;
 	background-image: url("img/notes.jpg");
