@@ -2,16 +2,18 @@ body {
 	background-color: #E6E8E3;
 }
 
+h1 {
+	font-size: 56px;
+}
+
 /* Navbar */
 .navbar {
 	margin-bottom: 0px;
 	border-radius: 0px;
 }
-
 .navbar-inverse .navbar-brand {
 	color: white;
 }
-
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
 	color: orange;
@@ -27,15 +29,12 @@ body {
 #banner img {
 	min-width: 100%;
 }
-
 #banner {
 	position: relative;
 }
-
 #banner h4 {
 	font-weight: normal;
 }
-
 #banner-overlay {
 	position: absolute;
 	width: 40%;
@@ -48,6 +47,9 @@ body {
                                     support rgba */
   background: rgba(0, 0, 0, .5);
   box-shadow: 0 1px 0 0 rgba(255,255,255,.35);
+}
+#banner-overlay h1 {
+	font-size: 36px;
 }
 
 @media(max-width: 768px){
@@ -79,48 +81,79 @@ body {
 }
 
 /* Home */
-
 .strip {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
-
 .strip h1 {
 	margin-top: 0px;
 }
 
 #triangle-of-success {
 	background-color: #FFF;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: 0px;
 }
 
+/* The How */
 #the-how {
 	background-color: #ffb328;
 	background-image: url("img/notes.jpg");
 }
-
 #the-how .panel {
 	height: 330px;
 }
-
 #the-how .panel-body {
 	height: 100%;
 }
-
 #the-how img {
 	height: 300px;
 }
-
 #the-how .left-img {
 	margin-right: 20px;
 }
-
 #the-how h2 {
 	margin-top: 0px;
+}
+
+/* Type of Help */
+#type-of-help {
+	background-color: #101010;
+	color: orange;
+}
+#type-of-help h1 {
+	margin-bottom: 80px;
+}
+#type-of-help .row {
+	margin-bottom: 40px;
+}
+
+#enroll h1 {
+	margin-bottom: 80px;
+}
+#enroll p {
+	font-size: 36px;
+}
+#enroll .row {
+	margin-bottom: 40px;
+}
+#call-to-action {
+	margin-top: 40px;
 }
 
 /* Contact Us */
 address {
 	font-size: 1.25em;
+}
+
+footer {
+	color: orange;
+}
+
+footer #copyright {
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 /* Syntax highlighting styles */
