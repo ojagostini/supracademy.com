@@ -19,6 +19,8 @@ If you don't have RVM installed then install it and the required ruby
 \curl -sSL https://get.rvm.io | bash -s stable --ruby=2.1.2
 ```
 
+Install Jekyll: http://jekyllrb.com/
+
 ## Resources
 
 http://getbootstrap.com/
