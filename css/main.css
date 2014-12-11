@@ -139,21 +139,32 @@ h1 {
 	margin-bottom: 40px;
 }
 #call-to-action {
-	margin-top: 40px;
+	margin-top: 80px;
 }
 
 /* Contact Us */
+
+#location .panel{
+	height: 330px;
+}
+#location .panel-body {
+	height: 100%;
+}
 address {
 	font-size: 1.25em;
 }
 
-footer {
-	color: orange;
+.navbar {
+	min-height: 40px;
 }
-
+footer {
+	color: #444;
+}
 footer #copyright {
-	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-top: 10px;
+}
+footer p {
+	margin-bottom: 0px;
 }
 
 /* Syntax highlighting styles */
