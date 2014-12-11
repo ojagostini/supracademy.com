@@ -76,7 +76,7 @@ h1 {
 	#banner-overlay {
 		height: auto;
 		width: 40%;
-		top: 35%;
+		top: 45%;
 	}
 }
 
@@ -121,7 +121,7 @@ h1 {
 	color: white;
 	background: rgb(255, 255, 255); /* Fall-back for browsers that don't
 	support rgba */
-	background: rgba(0, 0, 0, .5);
+	background: rgba(0, 0, 0, .8);
 }
 #component-online {
 	background-image: url("img/component-online.png");
@@ -151,7 +151,8 @@ h1 {
 
 /* Type of Help */
 #type-of-help {
-	background-color: #101010;
+	/*background-color: #101010;*/
+	background-color: #0050B2;
 	color: orange;
 }
 #type-of-help h1 {
@@ -168,7 +169,7 @@ h1 {
 	font-size: 36px;
 }
 #enroll .row {
-	margin-bottom: 40px;
+	margin-bottom: 70px;
 }
 
 /* Learn More */
@@ -183,6 +184,7 @@ h1 {
 }
 #learn-more {
 	background-image: url("img/notes.jpg");
+	background-color:rgba(0, 0, 0, 0.5);
 }
 #call-to-action {
 	margin-top: 40px;
@@ -199,6 +201,12 @@ address {
 	font-size: 1.25em;
 }
 
+/* FAQ */
+.panel-group .panel+.panel {
+padding: 10px;
+}
+
+/* Foter */
 .navbar {
 	min-height: 40px;
 }
