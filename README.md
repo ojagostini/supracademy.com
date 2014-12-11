@@ -17,9 +17,11 @@ If you don't have RVM installed then install it and the required ruby
 
 ```bash
 \curl -sSL https://get.rvm.io | bash -s stable --ruby=2.1.2
+gem install jekyll
+git clone git@github.com:SuprAcademy/supracademy.github.io.git
+cd supracademy.github.io
+jekyll serve
 ```
-
-Install Jekyll: http://jekyllrb.com/
 
 ## Resources
 
