@@ -97,10 +97,10 @@ h1 {
 }
 
 /* The How */
-#the-how {
+/*#the-how {
 	background-color: #ffb328;
 	background-image: url("img/notes.jpg");
-}
+}*/
 #the-how .panel {
 	height: 330px;
 }
@@ -138,12 +138,25 @@ h1 {
 #enroll .row {
 	margin-bottom: 40px;
 }
+
+/* Learn More */
+#learn-more .row {
+	margin-bottom: 40px;
+}
+#learn-more h1 {
+	margin-bottom: 80px;
+}
+#learn-more p {
+	font-size: 36px;
+}
+#learn-more {
+	background-image: url("img/notes.jpg");
+}
 #call-to-action {
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 /* Contact Us */
-
 #location .panel{
 	height: 330px;
 }
