@@ -7,9 +7,7 @@ SuprAcademy website
 
 * Remove robots.txt after DNS changed
 * Wire up the contact us form. Could be an Ember app and have the web app
-* Alternate colour for the How We Help section
-  * Blue? Look for orange accent colour
-* Make the FAQ panels larger
+* Fix 3 part image sizing for mobile
 
 ## Setup
 
@@ -23,6 +21,17 @@ cd supracademy.github.io
 jekyll serve
 ```
 
+## How This App What Built
+
+```bash
+bower install bootstrap
+bower install bootstrapValidator
+bower install font-awesome
+bower install imagemapster
+bower install imagemap-resizer
+bower install jquery.BlackAndWhite
+```
+
 ## Resources
 
 http://getbootstrap.com/
@@ -30,3 +39,15 @@ http://getbootstrap.com/
 http://fortawesome.github.io/Font-Awesome/icons/
 
 http://bootstrapvalidator.com/getting-started/
+
+### Images
+
+Creative Commons:
+
+https://www.flickr.com/photos/departmentofed/9608813574
+https://www.flickr.com/photos/departmentofed/9610030584
+https://www.flickr.com/photos/departmentofed/9605581943
+
+Shutterstock
+
+http://www.shutterstock.com/pic.mhtml?id=141101554&src=lb-31592221

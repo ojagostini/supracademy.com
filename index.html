@@ -43,13 +43,29 @@ published: true
 <!-- The Why: Triangle of Success -->
 <div id="triangle-of-success" class="container-fluid">
   <div class="row">
-    <div class="col-md-3 col-md-offset-1">
-      <img class="img-responsive" src="assets/img/triangle.png">
+    <div id="triangle" class="col-md-3 col-md-offset-1">
+      <!-- <map name="triangle-map">
+        <area data-key="student" shape="circle" href="#" coords="249,127,109" alt="">
+        <area data-key="guide"   shape="circle" href="#" coords="130,335,109" alt="">
+        <area data-key="parent"  shape="circle" href="#" coords="372,335,109" alt="">
+      </map>
+      <img id="triangle" class="img-responsive" src="assets/img/triangle.png" usemap="#triangle-map" width="500" height="462"> -->
+      <div id="triangle-upper">
+        <img id="triangle-student" class="img-responsive" src="assets/img/triangle-student.png">
+      </div>
+      <div>
+        <img id="triangle-guide" class="img-responsive pull-left" src="assets/img/triangle-guide.png">
+        <img id="triangle-parent" class="img-responsive pull-right" src="assets/img/triangle-parent.png">
+      </div>
     </div>
     <div class="col-md-7">
       <p class="lead">At <b>SuprAcademy</b>, we strongly believe that merely offering a traditional "tutoring" service does not guarantee a student's academic success.</p>
       <p class="lead">We believe in the importance of parental involvement in their child's academic life. As such, we have structured our service in what we call the <b>Triangle of Success</b>.</p>
       <p class="lead">For the academic support service that we provide to have the maximum effect, this triangle must remain intact. If any part of the triangle breaks, the academic support we provide loses its effectiveness.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
     </div>
   </div>
 </div>
@@ -85,62 +101,6 @@ published: true
     </div>
   </div>
 </div>
-
-<!-- How It Works -->
-<!-- <div id="the-how" class="container-fluid strip">
-  <h1 class="text-center">How It Works</h1>
-  <br />
-  <div class="row">
-    <div class="col-md-6">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <div class="pull-left">
-            <img class="responsive left-img" src="assets/img/in-person.jpg">
-          </div>
-          <div>
-            <h2>In Person</h2>
-            <p class="lead">Content...</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2886.279298321285!2d-79.410828!3d43.6631608!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34930f7bcfe3%3A0x2a68be31aff6aef3!2s720+Bathurst+St%2C+Toronto%2C+ON+M5S+2R4%2C+Canada!5e0!3m2!1sen!2sau!4v1418216707628" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <div class="pull-left">
-            <img class="responsive left-img" src="assets/img/component-online.png">
-          </div>
-          <div>
-            <h2>Online</h2>
-            <p class="lead">Content...</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <div class="pull-left">
-            <img class="responsive left-img" src="assets/img/component-parent.jpg">
-          </div>
-          <div>
-            <h2>Parent Component</h2>
-            <p class="lead">Content...</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
 
 <!-- Type of Help -->
 <div id="type-of-help" class="conainer-fluid strip">
@@ -235,3 +195,36 @@ published: true
     </div>
   </div>
 </div>
+
+<script>
+  $(document).ready(function() {
+    // $('img[usemap]').rwdImageMaps();
+
+  //   $('.bwWrapper').BlackAndWhite({
+  //     hoverEffect : true, // default true
+  //     // set the path to BnWWorker.js for a superfast implementation
+  //     webworkerPath : "{{ "/bower_components/jquery.BlackAndWhite/src/" | prepend: site.baseurl }}",
+  //     // to invert the hover effect
+  //     invertHoverEffect: false,
+  //     // this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+  //     intensity:1,
+  //     speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+  //       fadeIn: 200, // 200ms for fadeIn animations
+  //       fadeOut: 800 // 800ms for fadeOut animations
+  //     },
+  //     onImageReady:function(img) {
+  //       // this callback gets executed anytime an image is converted
+  //     }
+  //   });
+  // });
+
+  // $('area').click(function( event ) {
+  //   event.preventDefault();
+  //   $(this).css('opacity', 0.4);
+  //   $(this).css('filter', 'alpha(opacity=40)'); /* For IE8 and earlier */
+  // });
+  //
+  // $('area').hover(function( event) {
+  //   event.preventDefault();
+  // });
+</script>

@@ -1,0 +1,25 @@
+{
+  "name": "jquery.BlackAndWhite",
+  "version": "0.3.4",
+  "main": "jquery.BlackAndWhite.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "*.html",
+    "files",
+    "css",
+    "src/jquery.min.js"
+  ],
+  "homepage": "https://github.com/GianlucaGuarini/jQuery.BlackAndWhite",
+  "_release": "0.3.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.3.4",
+    "commit": "a7e9af64e73a4121a3aa5b0b4aae3964e9e2f46f"
+  },
+  "_source": "git://github.com/GianlucaGuarini/jQuery.BlackAndWhite.git",
+  "_target": "~0.3.4",
+  "_originalSource": "jquery.BlackAndWhite",
+  "_direct": true
+}

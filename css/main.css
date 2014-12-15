@@ -1,9 +1,13 @@
 body {
-	background-color: #E6E8E3;
+	background-color: #0050B2;
 }
 
 h1 {
 	font-size: 56px;
+}
+
+h2 {
+	color: orange;
 }
 
 /* Navbar */
@@ -89,11 +93,39 @@ h1 {
 	margin-top: 0px;
 }
 
+/* Triangle of Success */
 #triangle-of-success {
 	background-color: #FFF;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	margin-top: 0px;
+}
+
+#triangle-upper {
+	display: block;
+}
+
+#triangle-student {
+	width: 48%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#triangle-guide {
+	width: 48%;
+}
+
+#triangle-parent {
+	width: 48%
+}
+
+area:focus {
+	outline: none;
+}
+
+.bwWrapper {
+	position:relative;
+	display:block;
 }
 
 /* The How */
@@ -121,10 +153,10 @@ h1 {
 	color: white;
 	background: rgb(255, 255, 255); /* Fall-back for browsers that don't
 	support rgba */
-	background: rgba(0, 0, 0, .8);
+	background: rgba(0, 0, 0, .6);
 }
 #component-online {
-	background-image: url("img/component-online.png");
+	background-image: url("img/component-online.jpg");
 }
 #component-parent {
 	background-image: url("img/component-parent.jpg");
@@ -162,6 +194,10 @@ h1 {
 	margin-bottom: 40px;
 }
 
+#enroll {
+	background-color: #E6E8E3;
+}
+
 #enroll h1 {
 	margin-bottom: 80px;
 }
@@ -191,6 +227,9 @@ h1 {
 }
 
 /* Contact Us */
+#location {
+	padding-bottom: 50px;
+}
 #location .panel{
 	height: 330px;
 }
@@ -202,11 +241,14 @@ address {
 }
 
 /* FAQ */
-.panel-group .panel+.panel {
-padding: 10px;
+#faq {
+	background-color: #0050B2;
+}
+.panel-group .panel-heading {
+	padding: 20px 15px;
 }
 
-/* Foter */
+/* Footer */
 .navbar {
 	min-height: 40px;
 }
