@@ -44,17 +44,11 @@ published: true
 <div id="triangle-of-success" class="container-fluid">
   <div class="row">
     <div id="triangle" class="col-md-3 col-md-offset-1">
-      <!-- <map name="triangle-map">
-        <area data-key="student" shape="circle" href="#" coords="249,127,109" alt="">
-        <area data-key="guide"   shape="circle" href="#" coords="130,335,109" alt="">
-        <area data-key="parent"  shape="circle" href="#" coords="372,335,109" alt="">
-      </map>
-      <img id="triangle" class="img-responsive" src="assets/img/triangle.png" usemap="#triangle-map" width="500" height="462"> -->
       <div id="triangle-upper">
         <img id="triangle-student" class="img-responsive" src="assets/img/triangle-student.png">
       </div>
       <div>
-        <img id="triangle-guide" class="img-responsive pull-left" src="assets/img/triangle-guide.png">
+        <img id="triangle-guide" class="img-responsive pull-left bwWrapper" src="assets/img/triangle-guide.png">
         <img id="triangle-parent" class="img-responsive pull-right" src="assets/img/triangle-parent.png">
       </div>
     </div>
@@ -198,33 +192,6 @@ published: true
 
 <script>
   $(document).ready(function() {
-    // $('img[usemap]').rwdImageMaps();
 
-  //   $('.bwWrapper').BlackAndWhite({
-  //     hoverEffect : true, // default true
-  //     // set the path to BnWWorker.js for a superfast implementation
-  //     webworkerPath : "{{ "/bower_components/jquery.BlackAndWhite/src/" | prepend: site.baseurl }}",
-  //     // to invert the hover effect
-  //     invertHoverEffect: false,
-  //     // this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
-  //     intensity:1,
-  //     speed: { //this property could also be just speed: value for both fadeIn and fadeOut
-  //       fadeIn: 200, // 200ms for fadeIn animations
-  //       fadeOut: 800 // 800ms for fadeOut animations
-  //     },
-  //     onImageReady:function(img) {
-  //       // this callback gets executed anytime an image is converted
-  //     }
-  //   });
-  // });
-
-  // $('area').click(function( event ) {
-  //   event.preventDefault();
-  //   $(this).css('opacity', 0.4);
-  //   $(this).css('filter', 'alpha(opacity=40)'); /* For IE8 and earlier */
-  // });
-  //
-  // $('area').hover(function( event) {
-  //   event.preventDefault();
-  // });
+  });
 </script>

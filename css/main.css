@@ -119,15 +119,6 @@ h2 {
 	width: 48%
 }
 
-area:focus {
-	outline: none;
-}
-
-.bwWrapper {
-	position:relative;
-	display:block;
-}
-
 /* The How */
 #the-how {
 	background-color: #fff;

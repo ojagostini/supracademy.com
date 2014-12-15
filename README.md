@@ -27,9 +27,6 @@ jekyll serve
 bower install bootstrap
 bower install bootstrapValidator
 bower install font-awesome
-bower install imagemapster
-bower install imagemap-resizer
-bower install jquery.BlackAndWhite
 ```
 
 ## Resources
