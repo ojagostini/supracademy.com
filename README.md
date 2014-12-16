@@ -27,7 +27,11 @@ jekyll serve
 bower install bootstrap
 bower install bootstrapValidator
 bower install font-awesome
+bower install animate.css
+bower install animo.js
 ```
+
+Added `waypoints.min.js` to `js` directory from <http://imakewebthings.com/jquery-waypoints/>
 
 ## Resources
 
@@ -36,6 +40,14 @@ http://getbootstrap.com/
 http://fortawesome.github.io/Font-Awesome/icons/
 
 http://bootstrapvalidator.com/getting-started/
+
+http://labs.bigroomstudios.com/libraries/animo-js
+
+http://daneden.github.io/animate.css/
+
+http://blog.webbb.be/trigger-css-animation-scroll/
+
+http://www.oxygenna.com/tutorials/scroll-animations-using-waypoints-js-animate-css
 
 ### Images
 

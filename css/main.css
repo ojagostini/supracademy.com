@@ -1,5 +1,6 @@
 body {
 	background-color: #0050B2;
+	font-size: 16px;
 }
 
 h1 {
@@ -97,7 +98,7 @@ h2 {
 #triangle-of-success {
 	background-color: #FFF;
 	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	margin-top: 0px;
 }
 
@@ -106,20 +107,16 @@ h2 {
 }
 
 #triangle-student {
-	width: 48%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#triangle-guide {
+.img-triangle {
 	width: 48%;
 }
 
-#triangle-parent {
-	width: 48%
-}
-
 /* The How */
+
 #the-how {
 	background-color: #fff;
 }
@@ -193,7 +190,7 @@ h2 {
 	margin-bottom: 80px;
 }
 #enroll p {
-	font-size: 36px;
+	font-size: 34px;
 }
 #enroll .row {
 	margin-bottom: 70px;
@@ -251,6 +248,15 @@ footer #copyright {
 }
 footer p {
 	margin-bottom: 0px;
+}
+
+/* Animation */
+.animation{
+	opacity: 0;
+}
+
+.animation.animated{
+	opacity: 1;
 }
 
 /* Syntax highlighting styles */

@@ -43,53 +43,104 @@ published: true
 <!-- The Why: Triangle of Success -->
 <div id="triangle-of-success" class="container-fluid">
   <div class="row">
-    <div id="triangle" class="col-md-3 col-md-offset-1">
-      <div id="triangle-upper">
-        <img id="triangle-student" class="img-responsive" src="assets/img/triangle-student.png">
-      </div>
-      <div>
-        <img id="triangle-guide" class="img-responsive pull-left bwWrapper" src="assets/img/triangle-guide.png">
-        <img id="triangle-parent" class="img-responsive pull-right" src="assets/img/triangle-parent.png">
-      </div>
-    </div>
-    <div class="col-md-7">
+    <div id="triangle-description" data-animation="fadeIn" class="col-md-8 col-md-offset-2 animation">
       <p class="lead">At <b>SuprAcademy</b>, we strongly believe that merely offering a traditional "tutoring" service does not guarantee a student's academic success.</p>
       <p class="lead">We believe in the importance of parental involvement in their child's academic life. As such, we have structured our service in what we call the <b>Triangle of Success</b>.</p>
       <p class="lead">For the academic support service that we provide to have the maximum effect, this triangle must remain intact. If any part of the triangle breaks, the academic support we provide loses its effectiveness.</p>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
+    <div id="triangle" class="col-md-3 col-md-offset-2 animation" data-animation="bounceInLeft">
+      <div id="triangle-upper">
+        <a href="javascript:void(0)"><img id="triangle-student" class="img-responsive img-triangle" src="assets/img/triangle-student.png"></a>
+      </div>
+      <div>
+        <a href="javascript:void(0)"><img id="triangle-guide" class="img-responsive pull-left img-triangle" src="assets/img/triangle-guide.png"></a>
+        <a href="javascript:void(0)"><img id="triangle-parent" class="img-responsive pull-right img-triangle" src="assets/img/triangle-parent.png"></a>
+      </div>
+    </div>
+    <div id="triangle-details" class="col-md-5 animation" data-animation="bounceInRight">
+      <div id="triangle-student-details">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Students Succeed By</h3>
+          </div>
+          <div class="panel-body">
+            <ul>
+              <li>Receives individuals, one-on-one academic support</li>
+              <li>Own account</li>
+              <ul>
+                <li>Keeps student organized</li>
+                <li>Review of previous sessions to keep our Guides informed of student's latest academic work</li>
+                <li>Ability to upload future work (such as challenging homework questions) to achieve efficiency and safe student time</li>
+                <li>To-do lists</li>
+                <li>Snapshot of student's calendar to provide context on day's session</li>
+              </ul>
+              <li>Personalized Resources page composed of internal and external resources tailored for student's individual use. Resources are compiled based on student's needs as observed by Guides</li>
+              <li>Receive best possible academic guidance based on individual learning needs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="triangle-guide-details">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Guides Succeed By</h3>
+          </div>
+          <div class="panel-body">
+            <ul>
+              <li>Provides professional (Incomplete)</li>
+              <li>Highly qualified, well-trained and competent Guides</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="triangle-parent-details">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Parents Succeed By</h3>
+          </div>
+          <div class="panel-body">
+            <ul>
+              <li>Regular feedback in-person and online communication</li>
+              <li>Review student day-to-day session performance</li>
+              <li>Constant engagement via walk-in "Parent-days"</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
 <!-- How It Works -->
 <div id="the-how" class="container-fluid strip">
-  <h1 class="text-center">How It Works</h1>
-  <br />
-  <div class="row">
-    <div id="component-in-person" class="card col-md-4">
-      <div class="card-overlay">
-        <div>
-          <h2>In Person</h2>
-          <p class="lead">We work one-on-one, one concept at a time, to build a foundation for long term success.</p>
+  <div class="animation" data-animation="fadeIn">
+    <h1 class="text-center">How It Works</h1>
+    <br />
+    <div class="row">
+      <div id="component-in-person" class="card col-md-4">
+        <div class="card-overlay">
+          <div>
+            <h2>In Person</h2>
+            <p class="lead">We work one-on-one, one concept at a time, to build a foundation for long term success.</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div id="component-online" class="card col-md-4">
-      <div class="card-overlay">
-        <div>
-          <h2>Online</h2>
-          <p class="lead">We work one-on-one, one concept at a time, to build a foundation for long term success.</p>
+      <div id="component-online" class="card col-md-4">
+        <div class="card-overlay">
+          <div>
+            <h2>Online</h2>
+            <p class="lead">We work one-on-one, one concept at a time, to build a foundation for long term success.</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div id="component-parent" class="card col-md-4">
-      <div class="card-overlay">
-        <div>
-          <h2>Parental Involvement</h2>
-          <p class="lead">We work one-on-one, one concept at a time, to build a foundation for long term success.</p>
+      <div id="component-parent" class="card col-md-4">
+        <div class="card-overlay">
+          <div>
+            <h2>Parental Involvement</h2>
+            <p class="lead">We work one-on-one, one concept at a time, to build a foundation for long term success.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -98,71 +149,73 @@ published: true
 
 <!-- Type of Help -->
 <div id="type-of-help" class="conainer-fluid strip">
-  <h1 class="text-center">How We Help</h1>
+  <h1 class="text-center animation" data-animation="fadeIn">How We Help</h1>
   <div class="row">
-    <div class="col-md-3 col-md-offset-3">
-      <i class="fa fa-calendar-o fa-5x fa-fw fa-inverse pull-left"></i>
-      <p class="lead">Exam Preperation</p>
+    <div class="col-md-3 col-md-offset-3 animation" data-animation="fadeInLeft" data-animation-duration=".5s">
+      <div class="row">
+        <i class="fa fa-calendar-o fa-5x fa-fw fa-inverse pull-left"></i>
+        <p class="lead">Exam Preparation</p>
+      </div>
+      <div class="row">
+        <i class="fa fa-file-o fa-5x fa-fw fa-inverse pull-left"></i>
+        <p class="lead">Lesson Review</p>
+      </div>
+      <div class="row">
+        <i class="fa fa-university fa-5x fa-fw fa-inverse pull-left"></i>
+        <p class="lead">SSAT, EQAO, AP, IP</p>
+      </div>
     </div>
-    <div class="col-md-3 col-md-offset-1">
-      <i class="fa fa-pencil-square-o fa-5x fa-fw fa-inverse pull-left"></i>
-      <p class="lead">Homework</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-3 col-md-offset-3">
-      <i class="fa fa-file-o fa-5x fa-fw fa-inverse pull-left"></i>
-      <p class="lead">Lesson Review</p>
-    </div>
-    <div class="col-md-3 col-md-offset-1">
-      <i class="fa fa-area-chart fa-5x fa-fw fa-inverse pull-left"></i>
-      <p class="lead">Concept Review</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-3 col-md-offset-3">
-      <i class="fa fa-university fa-5x fa-fw fa-inverse pull-left"></i>
-      <p class="lead">SSAT, EQAO, AP, IP</p>
-    </div>
-    <div class="col-md-3 col-md-offset-1">
-      <i class="fa fa-comments-o fa-5x fa-fw fa-inverse pull-left"></i>
-      <p class="lead">General</p>
+    <div class="col-md-3 col-md-offset-1 animation" data-animation="fadeInRight">
+      <div class="row">
+        <i class="fa fa-pencil-square-o fa-5x fa-fw fa-inverse pull-left"></i>
+        <p class="lead">Homework</p>
+      </div>
+      <div class="row">
+        <i class="fa fa-area-chart fa-5x fa-fw fa-inverse pull-left"></i>
+        <p class="lead">Concept Review</p>
+      </div>
+      <div class="row">
+        <i class="fa fa-comments-o fa-5x fa-fw fa-inverse pull-left"></i>
+        <p class="lead">General</p>
+      </div>
     </div>
   </div>
 </div>
 
-<!-- Enrollment -->
-<div id="enroll" class="conainer-fluid strip">
-  <h1 class="text-center">Enrollment</h1>
-  <div class="row">
-    <div class="col-md-4 col-md-offset-4">
-      <i class="fa fa-phone fa-5x fa-fw pull-left"></i>
-      <p class="lead">1. Call 416-702-6908</p>
+<!-- Enroll -->
+<div id="enroll" class="conainer-fluid strip staggered-animation-container">
+  <div class="animation staggered-animation" data-animation="fadeIn" data-animation-delay="0s">
+    <h1 class="text-center">Enroll</h1>
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <i class="fa fa-phone fa-5x fa-fw pull-left staggered-animation" data-animation="tada" data-animation-delay="1s"></i>
+        <p class="lead">1. Call 416-702-6908</p>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4 col-md-offset-4">
-      <i class="fa fa-comments-o fa-5x fa-fw pull-left"></i>
-      <p class="lead">2. Initial Meeting</p>
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <i class="fa fa-comments-o fa-5x fa-fw pull-left"></i>
+        <p class="lead">2. Initial Meeting</p>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4 col-md-offset-4">
-      <i class="fa fa-calendar-o fa-5x fa-fw pull-left"></i>
-      <p class="lead">3. Pick a Schedule</p>
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <i class="fa fa-calendar-o fa-5x fa-fw pull-left"></i>
+        <p class="lead">3. Pick a Schedule</p>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4 col-md-offset-4">
-      <i class="fa fa-graduation-cap fa-5x fa-fw pull-left"></i>
-      <p class="lead">4. Start!</p>
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <i class="fa fa-graduation-cap fa-5x fa-fw pull-left"></i>
+        <p class="lead">4. Start!</p>
+      </div>
     </div>
   </div>
 </div>
 
 <!-- Learn More -->
 <div id="learn-more" class="conainer-fluid strip">
-  <div class="row">
+  <div class="row animation" data-animation="fadeInUp">
     <div class="col-md-12">
       <h1 class="text-center">Learn More</h1>
       <p class="text-center">Read our <a href="faq">FAQ</a> for further questions and subscribe to our Newsletter.</p>
@@ -192,6 +245,60 @@ published: true
 
 <script>
   $(document).ready(function() {
+    var selectedTriangleNode = $('#triangle-student');
+    $('.img-triangle').css('opacity', '.5');
+    $('#triangle-student').css('opacity', '1');
+    $('#triangle-guide-details').hide();
+    $('#triangle-parent-details').hide();
+    var selectedTriangleDetails = $('#triangle-student-details');
 
+    // A trigger element that is different than the element an animation is
+    // applied to can be used to start animations for a series of elements
+    function onScrollInit( items, triggerContainer ) {
+      items.each( function() {
+        var element = $(this),
+        animationClass    = element.attr('data-animation'),
+        animationDelay    = element.attr('data-animation-delay');
+        animationDuration = element.attr('data-animation-duration');
+
+        var delay = (animationDelay) ? animationDelay : "0s";
+        element.css({
+          '-webkit-animation-delay':  animationDelay,
+          '-moz-animation-delay':     animationDelay,
+          'animation-delay':          animationDelay
+        });
+
+        if(animationDuration){
+          element.css({
+            '-webkit-animation-duration':  animationDuration,
+            '-moz-animation-duration':     animationDuration,
+            'animation-duration':          animationDuration
+          });
+        }
+
+        var trigger = ( triggerContainer ) ? triggerContainer : element;
+
+        trigger.waypoint(function() {
+          element.addClass('animated').addClass(animationClass);
+        },{
+          triggerOnce: true,
+          offset: '60%'
+        });
+      });
+    }
+    onScrollInit( $('.animation') );
+    onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
+
+    $('.img-triangle').click(function(event){
+      selectedTriangleNode.css('opacity', '.5');
+      $(this).css('opacity', '1');
+      selectedTriangleNode = $(this);
+
+      selectedTriangleDetails.hide();
+      var detailsId = '#' + event.target.id + '-details';
+      $(detailsId).show();
+      selectedTriangleDetails = $(detailsId);
+    });
   });
+
 </script>
