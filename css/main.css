@@ -1,5 +1,5 @@
 body {
-	background-color: #0050B2;
+	background-color: transparent;
 	font-size: 16px;
 }
 
@@ -42,15 +42,18 @@ h2 {
 }
 #banner-overlay {
 	position: absolute;
+	z-index: 200;
+	background: rgba(0, 0, 0, .5); /* Fall-back for browsers that don't
+                                    support rgba */
+    color: white;
 	width: 40%;
+	padding: 20px;
+	/*
 	right: 0px;
 	top: 45%;
 	padding: 40px;
-	z-index: 200;
-	color: white;
-	background: rgb(255, 255, 255); /* Fall-back for browsers that don't
-                                    support rgba */
-  background: rgba(0, 0, 0, .5);
+	background: rgb(255, 255, 255); 
+  	*/
   box-shadow: 0 1px 0 0 rgba(255,255,255,.35);
 }
 #banner-overlay h1 {
@@ -258,6 +261,7 @@ footer p {
 .animation.animated{
 	opacity: 1;
 }
+
 
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
