@@ -5,9 +5,37 @@ SuprAcademy website
 
 ## ToDo
 
+* Find URL for banner image
+* Mailchimp
+  * Add name + phone number if possible
+* Try bootstrap btn-primary color for background
+  * #428bca
+* Fix navbar to top
+* Fix triangle selection to make it more clear
+    - could also add arrow to text box
+    - fix size so doesn't jump when selecting different images
+* Get rid of box in triangle section
+* More subtle background color, lighter blue / grey?
+  * use #E6E8E3 for contact-us
 * Remove robots.txt after DNS changed
 * Wire up the contact us form. Could be an Ember app and have the web app
 * Fix 3 part image sizing for mobile
+* Contact-Us Background color to they Grey
+
+How it works positioning:
+* jumping with scroll a section at a time
+
+
+Banner Overlay Options:
+
+1) Cover it with banner-verlay and add some text:
+"Nurturing Students' Minds One Concept at a Time
+SuprAcademy provides support to grade six to twelve students with their math and science academic work."
+...followed by a "Find Out More" button.
+
+2) Cover the banner with two banner-overlay's and have the text above in one section and contact form in the other.
+
+I wanted to play around with both and see which one makes better sense.
 
 ## Setup
 
@@ -23,6 +51,8 @@ jekyll serve
 
 ## How This App What Built
 
+Javascript packages are managed by http://bower.io
+
 ```bash
 bower install bootstrap
 bower install bootstrapValidator
@@ -33,7 +63,12 @@ bower install animo.js
 
 Added `waypoints.min.js` to `js` directory from <http://imakewebthings.com/jquery-waypoints/>
 
+
 ## Resources
+
+Adobe Kuler
+
+https://color.adobe.com/create/color-wheel/?base=2&rule=Complementary&selected=4&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.11158804115705692,0.31586395274478596,0.492156862745098,0.4267326732673268,0.7344423412929988,1,0.25882352941176473,0.5450980392156862,0.792156862745098,0.492156862745098,0.32580140881511127,0.06237235488254713,0.792156862745098,0.5857210626184123,0.25882352941176473&swatchOrder=0,1,2,3,4
 
 http://getbootstrap.com/
 
