@@ -133,7 +133,10 @@ h2 {
 }
 #component-in-person {
 	background-image: url("img/component-in-person.jpg");
+
 }
+
+
 .card-overlay {
 	position: absolute;
 	width: 100%;
