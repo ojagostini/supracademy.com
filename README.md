@@ -5,19 +5,7 @@ SuprAcademy website
 
 ## ToDo
 
-* Mailchimp
-  * Add name + phone number if possible
-  * #428bca
-* Fix triangle selection to make it more clear
-    - could also add arrow to text box
-    - fix size so doesn't jump when selecting different images
-* Get rid of box in triangle section
 * Remove robots.txt after DNS changed
-* Fix 3 part image sizing for mobile
-
-How it works positioning:
-* jumping with scroll a section at a time
-
 
 Banner Overlay Options:
 
