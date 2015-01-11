@@ -34,12 +34,14 @@ h2 {
 	color: white;
 }
 .navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-brand:focus {
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:active {
 	color: orange;
 	background-color: transparent;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus {
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:active {
 	color: orange;
 	background-color: transparent;
 }
@@ -174,6 +176,9 @@ h2 {
 }
 
 /* Contact Us */
+#send-message {
+	padding-top: 20px;
+}
 #location {
 	padding-bottom: 50px;
 }
@@ -188,6 +193,13 @@ address {
 }
 
 /* FAQ */
+#faq {
+	background-color: #428bca;
+	min-height: 800px;
+}
+#faq h2 {
+	color: white;
+}
 .panel-group .panel-heading {
 	padding: 20px 15px;
 }
