@@ -5,22 +5,15 @@ SuprAcademy website
 
 ## ToDo
 
-* Find URL for banner image
 * Mailchimp
   * Add name + phone number if possible
-* Try bootstrap btn-primary color for background
   * #428bca
-* Fix navbar to top
 * Fix triangle selection to make it more clear
     - could also add arrow to text box
     - fix size so doesn't jump when selecting different images
 * Get rid of box in triangle section
-* More subtle background color, lighter blue / grey?
-  * use #E6E8E3 for contact-us
 * Remove robots.txt after DNS changed
-* Wire up the contact us form. Could be an Ember app and have the web app
 * Fix 3 part image sizing for mobile
-* Contact-Us Background color to they Grey
 
 How it works positioning:
 * jumping with scroll a section at a time

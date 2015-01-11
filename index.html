@@ -8,52 +8,48 @@ published: true
 <div class="conatiner">
   <div id="banner" class="row">
     <div class="col-md-12">
-      <img class="img-responsive" src="assets/img/banner.jpg">
-      <div id="banner-overlay">
-          <div id="banner-overlay-text">
-            <h1>Promoting Academic Success. One Concept at a Time.</h1>
-            <h4>SuprAcademy provides support to grade six to twelve students with their math and science academic work.</h4>
-            <br />
+      <img class="img-responsive" src="assets/img/banner-flipped.jpg">
+      <div id="banner-overlay" class="jumbotron">
+        <div id="banner-overlay-content">
+          <div id="banner-overlay-title">
+            <h1>SuprAcademy</h1>
           </div>
-
+          <div id="banner-overlay-text">
+            <h2>Academic success, one concept at a time.</h2>
+            <p class="lead hidden-xs">Supporting students in grades six to twelve with math and science academic work.</p>
+          </div>
+          <br/>
           <!-- Begin MailChimp Signup Form -->
-          <div id="mc_embed_signup">
-            <form action="//supracademy.us8.list-manage.com/subscribe/post?u=3e1daf4e599fe47266fa4bc9e&amp;id=7f1af9804e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" novalidate role="form">
-              <div class="form-group mc-field-group">
-                <input type="submit" value="Learn More" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success btn-lg">
-                <input type="email" value="" name="EMAIL" class="form-control input-lg required email" id="mce-EMAIL" placeholder="Enter email">
-              </div>
-              <div id="mce-responses" class="clear">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
-              </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;">
-                <input type="text" name="b_3e1daf4e599fe47266fa4bc9e_7f1af9804e" tabindex="-1" value="">
+          <div id="mc_embed_signup" class="hidden-xs">
+            <form action="//supracademy.us8.list-manage.com/subscribe/post?u=3e1daf4e599fe47266fa4bc9e&amp;id=7f1af9804e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
+                <div class="mc-field-group form-group">
+                  <input type="submit" value="Learn More" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success btn-lg">
+                  <input type="email" value="" name="EMAIL" class="form-control input-lg required email" id="mce-EMAIL" placeholder="email">
+                </div>
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_3e1daf4e599fe47266fa4bc9e_7f1af9804e" tabindex="-1" value=""></div>
               </div>
             </form>
           </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--End mc_embed_signup-->
-
-<!-- What is SuprAcademy -->
-<div id="what is" class="container-fluid">
-  <h1 class="text-center">SuprAcademy</h1>
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <p class="lead">At <b>SuprAcademy</b>, we strongly believe that merely offering a traditional "tutoring" service does not guarantee a student's academic success. We believe in the importance of parental involvement in their child's academic life.</p>
+          <!--End mc_embed_signup-->
+        </div><!-- end banner-overlay content -->
+      </div><!-- end banner-overlay -->
     </div>
   </div>
 </div>
 
 <!-- How It Works -->
-<div id="the-how" class="container-fluid strip">
+<div id="the-how" class="container-fluid strip white-theme">
   <div class="animation" data-animation="fadeIn">
     <h1 class="text-center">How It Works</h1>
-    <br />
+    <div class="row strip">
+      <div class="col-md-8 col-md-offset-2">
+        <p class="lead">At <b>SuprAcademy</b>, we strongly believe that merely offering a traditional "tutoring" service does not guarantee a student's academic success. We believe in the importance of parental involvement in their child's academic life.</p>
+      </div>
+    </div>
     <div class="row">
       <div id="component-in-person" class="card col-md-4">
         <div class="card-overlay">
@@ -69,7 +65,7 @@ published: true
           <div>
             <h2>Online</h2>
             <p class="lead">Students in our hybrid program connect with their guide online for scheduled sessions.</p>
-            <p class="lead">Students use their online accounts for:</p>
+            <p class="lead">Students use online accounts for</p>
             <ul>
               <li>Organizing their academic work with SuprAcademy</li>
               <li>Accessing internal and external resources specifically prepared or recommended for them</li>
@@ -93,7 +89,7 @@ published: true
 </div>
 
 <!-- The Why: Triangle of Success -->
-<div id="triangle-of-success" class="container-fluid">
+<div id="triangle-of-success" class="container-fluid strip white-theme">
   <h1 class="text-center">Triangle of Success</h1>
   <div class="row">
     <div id="triangle-description" data-animation="fadeIn" class="col-md-8 col-md-offset-2 animation">
@@ -105,16 +101,20 @@ published: true
     </div>
   </div>
   <div class="row">
-    <div id="triangle" class="col-md-3 col-md-offset-2 animation" data-animation="bounceInLeft">
-      <div id="triangle-upper">
-        <a href="javascript:void(0)"><img id="triangle-student" class="img-responsive img-triangle" src="assets/img/triangle-student.png"></a>
+    <div id="triangle" class="col-md-4 col-md-offset-2 animation" data-animation="bounceInLeft">
+      <div class="row">
+        <div id="triangle-upper" class="col-md-12">
+          <a href="javascript:void(0)"><img id="triangle-student" class="img-responsive img-triangle" src="assets/img/triangle-student.png"></a>
+        </div>
       </div>
-      <div>
-        <a href="javascript:void(0)"><img id="triangle-guide" class="img-responsive pull-left img-triangle" src="assets/img/triangle-guide.png"></a>
-        <a href="javascript:void(0)"><img id="triangle-parent" class="img-responsive pull-right img-triangle" src="assets/img/triangle-parent.png"></a>
+      <div class="row">
+        <div id="triangle-lower" class="col-md-12">
+          <a href="javascript:void(0)"><img id="triangle-guide" class="img-responsive pull-left img-triangle" src="assets/img/triangle-guide.png"></a>
+          <a href="javascript:void(0)"><img id="triangle-parent" class="img-responsive pull-right img-triangle" src="assets/img/triangle-parent.png"></a>
+        </div>
       </div>
     </div>
-    <div id="triangle-details" class="col-md-5 animation" data-animation="bounceInRight">
+    <div id="triangle-details" class="col-md-4 animation" data-animation="bounceInRight">
       <div id="triangle-student-details">
         <div class="panel panel-default">
           <div class="panel-body">
@@ -145,22 +145,23 @@ published: true
       <div id="triangle-parent-details">
         <div class="panel panel-default">
           <div class="panel-body">
-            <h2 class="panel-title">Parent</h2>
+            <h3 class="panel-title">Parent</h3>
+            <br/>
+            <ul>
+              <li>Regular feedback via in-person, phone and online communication</li>
+              <li>Review student day-to-day session performance and periodic academic progress</li>
+              <li>Constant engagement via walk-in "Parent-days"</li>
+              <li>Access to child's session feedback and progress online</li>
+            </ul>
           </div>
-          <ul class="list-group">
-            <li class="list-group-item">Regular feedback via in-person, phone and online communication</li>
-            <li class="list-group-item">Review student day-to-day session performance and periodic academic progress</li>
-            <li class="list-group-item">Constant engagement via walk-in "Parent-days"</li>
-            <li class="list-group-item">Access to child's session feedback and progress online</li>
-          </ul>
         </div>
       </div>
-    </div>
-  </div>
+    </div><!-- end triangle-details -->
+  </div><!-- end row -->
 </div>
 
-<!-- Type of Help -->
-<div id="type-of-help" class="conainer-fluid strip">
+<!-- How We Help -->
+<div id="type-of-help" class="conainer-fluid strip blue-theme">
   <h1 class="text-center animation" data-animation="fadeIn">How We Help</h1>
   <div class="row">
     <div class="col-md-3 col-md-offset-3 animation" data-animation="fadeInLeft" data-animation-duration=".5s">
@@ -195,7 +196,7 @@ published: true
 </div>
 
 <!-- Enroll -->
-<div id="enroll" class="conainer-fluid strip staggered-animation-container">
+<div id="enroll" class="conainer-fluid strip staggered-animation-container grey-theme">
   <div class="animation staggered-animation" data-animation="fadeIn" data-animation-delay="0s">
     <h1 class="text-center">Enroll</h1>
     <div class="row">
@@ -226,29 +227,29 @@ published: true
 </div>
 
 <!-- Learn More -->
-<div id="learn-more" class="conainer-fluid strip">
+<!-- form-inline only works for displays at least 768px wide -->
+<div id="learn-more" class="conainer-fluid strip white-theme">
   <div class="row animation" data-animation="fadeInUp">
     <div class="col-md-12">
       <h1 class="text-center">Learn More</h1>
       <p class="text-center">Read our <a href="faq">FAQ</a> for further questions and subscribe to our Newsletter.</p>
       <div id="call-to-action" class="row">
         <div class="col-md-4 col-md-offset-4">
-          <div id="mc_embed_signup" class="text-center">
-            <form action="//supracademy.us8.list-manage.com/subscribe/post?u=3e1daf4e599fe47266fa4bc9e&amp;id=7f1af9804e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" novalidate role="form">
-              <div class="form-group mc-field-group">
+          <div id="mc_embed_signup">
+            <form action="//supracademy.us8.list-manage.com/subscribe/post?u=3e1daf4e599fe47266fa4bc9e&amp;id=7f1af9804e" method="post" id="mc-embedded-subscribe-form-footer" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
+              <div id="learn-more-inputs" class="mc-field-group form-group">
                 <input type="submit" value="Learn More" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success btn-lg">
-                <input type="email" value="" name="EMAIL" class="form-control input-lg required email" id="mce-EMAIL" placeholder="Enter email">
+                <input type="email" value="" name="EMAIL" class="form-control input-lg required email" id="mce-EMAIL" placeholder="email">
               </div>
               <div id="mce-responses" class="clear">
                 <div class="response" id="mce-error-response" style="display:none"></div>
                 <div class="response" id="mce-success-response" style="display:none"></div>
-              </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;">
-                <input type="text" name="b_3e1daf4e599fe47266fa4bc9e_7f1af9804e" tabindex="-1" value="">
-              </div>
-            </form>
-          </div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;"><input type="text" name="b_3e1daf4e599fe47266fa4bc9e_7f1af9804e" tabindex="-1" value=""></div>
+            </div>
+          </form>
+        </div>
+        <!--End mc_embed_signup-->
         </div>
       </div>
     </div>
