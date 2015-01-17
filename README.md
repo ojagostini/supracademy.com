@@ -7,27 +7,38 @@ SuprAcademy website
 
 * Remove robots.txt after DNS changed
 
-Banner Overlay Options:
-
-1) Cover it with banner-verlay and add some text:
-"Nurturing Students' Minds One Concept at a Time
-SuprAcademy provides support to grade six to twelve students with their math and science academic work."
-...followed by a "Find Out More" button.
-
-2) Cover the banner with two banner-overlay's and have the text above in one section and contact form in the other.
-
-I wanted to play around with both and see which one makes better sense.
-
 ## Setup
 
 If you don't have RVM installed then install it and the required ruby
 
 ```bash
-\curl -sSL https://get.rvm.io | bash -s stable --ruby=2.1.2
-gem install jekyll
+\curl -sSL https://get.rvm.io | bash -s stable --ruby=2.1.2 # installs RVM and ruby
+gem install jekyll # installs jekyll
 git clone git@github.com:SuprAcademy/supracademy.github.io.git
 cd supracademy.github.io
 jekyll serve
+```
+
+If you want to keep your browsers in sync with file changes you can use the following.
+Based on [this](http://quick.as/5g9c1jx)
+
+Install requirements as needed:
+
+```bash
+# install XCode if you don't have it <https://itunes.apple.com/us/app/xcode/id497799835?mt=12>
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" # installs Homebrew if you don't have it
+brew update
+brew doctor
+brew install node
+npm install -g grunt-cli # installs grunt
+npm install -g localtunnel # installs local tunnel (not sure this was needed in the end)
+npm install # installs the packages for this project
+```
+
+Build the site, start browser-sync, watch for file changes:
+
+```bash
+grunt
 ```
 
 ## How This App What Built

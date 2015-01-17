@@ -12,3 +12,7 @@ url: "http://supracademy.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+exclude:
+  - 'node_modules'
+  - 'package.json'

@@ -1,0 +1,19 @@
+{
+  "name": "BROWSER-SYNC_JEKYLL_GRUNT",
+  "version": "0.0.0",
+  "description": "BROWSER-SYNC + JEKYLL + GRUNT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "~2.1.0",
+    "grunt-browser-sync": "~1.5.3",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-jekyll": "~0.4.2",
+    "localtunnel": "^1.5.0"
+  }
+}
