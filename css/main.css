@@ -343,8 +343,18 @@ footer p {
 	#banner-overlay h2 {
 		font-size: 24px;
 	}
+	#triangle {
+		margin: auto;
+		width: 40%;
+	}
 	#faq {
 		min-height: 1024px;
+	}
+	#the-how .card {
+		height: 440px;
+	}
+	.card-overlay {
+		padding: 80px;
 	}
 }
 
