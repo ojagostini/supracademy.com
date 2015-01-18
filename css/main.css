@@ -235,13 +235,15 @@ footer p {
 	}
 	.strip {
 		padding-top: 25px;
+		padding-bottom: 25px;
 	}
 	.fa-5x {
 		font-size: 4em;
 	}
 
 	#banner-overlay-content {
-		top: 25%;
+		position: absolute;
+		top: 30%;
 		width: 55%;
 	}
 	#banner-overlay h1 {
@@ -256,20 +258,29 @@ footer p {
 	}
 	.card-overlay {
 		padding: 20px;
+		padding-top: 40px;
+	}
+	#triangle {
+		margin: auto;
+		width: 60%;
 	}
 	#triangle-details {
 		margin-top: 20px;
 	}
-
-	#type-of-help div.row {
-		margin-left:  20px;
-		margin-right: 20px;
+	#type-of-help {
+		padding-bottom: 20px;
+	}
+	#type-of-help h1 {
+		margin-bottom: 40px;
 	}
 	#type-of-help div.row {
 		margin-left:  10px;
 		margin-right: 10px;
 	}
 
+	#enroll h1 {
+		margin-bottom: 40px;
+	}
 	#enroll div.row {
 		margin-left:   10px;
 		margin-right:  10px;
@@ -295,6 +306,24 @@ footer p {
 	#call-to-action {
 		margin: 0px 5px;
 	}
+	#mc-embedded-subscribe {
+		height: 46px;
+	}
+
+	#pricing {
+		padding-top: 20px;
+	}
+
+	#faq {
+		padding-top: 20px;
+	}
+
+	#location .panel {
+		height: 100%;
+	}
+	#contact-map.panel {
+		height: 330px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -313,6 +342,9 @@ footer p {
 	}
 	#banner-overlay h2 {
 		font-size: 24px;
+	}
+	#faq {
+		min-height: 1024px;
 	}
 }
 
