@@ -109,7 +109,7 @@ h2 {
 	background-repeat: no-repeat;
 }
 #component-in-person {
-	background-image: url("img/component-in-person.jpg");
+	background-image: url("img/student_and_guide.jpeg");
 }
 .card-overlay {
 	position: absolute;
@@ -125,10 +125,10 @@ h2 {
 	background: rgba(0, 0, 0, .6);
 }
 #component-online {
-	background-image: url("img/component-online.jpg");
+	background-image: url("img/student_studying_online.jpg");
 }
 #component-parent {
-	background-image: url("img/component-parent.jpg");
+	background-image: url("img/parent_involvement_original.jpg");
 }
 #the-how .panel {
 	height: 330px;
