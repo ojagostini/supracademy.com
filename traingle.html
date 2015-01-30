@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Traingle of Success
-permalink: /triangle_of_success/
+permalink: /triangle/
 published: true
 ---
 
@@ -77,3 +77,63 @@ published: true
     </div><!-- end triangle-details -->
   </div><!-- end row -->
 </div>
+
+<script>
+  $(document).ready(function() {
+    var selectedTriangleNode = $('#triangle-student');
+    $('.img-triangle').css('opacity', '.5');
+    $('#triangle-student').css('opacity', '1');
+    $('#triangle-guide-details').hide();
+    $('#triangle-parent-details').hide();
+    var selectedTriangleDetails = $('#triangle-student-details');
+
+    // A trigger element that is different than the element an animation is
+    // applied to can be used to start animations for a series of elements
+    function onScrollInit( items, triggerContainer ) {
+      items.each( function() {
+        var element = $(this),
+        animationClass    = element.attr('data-animation'),
+        animationDelay    = element.attr('data-animation-delay');
+        animationDuration = element.attr('data-animation-duration');
+
+        var delay = (animationDelay) ? animationDelay : "0s";
+        element.css({
+          '-webkit-animation-delay':  animationDelay,
+          '-moz-animation-delay':     animationDelay,
+          'animation-delay':          animationDelay
+        });
+
+        if(animationDuration){
+          element.css({
+            '-webkit-animation-duration':  animationDuration,
+            '-moz-animation-duration':     animationDuration,
+            'animation-duration':          animationDuration
+          });
+        }
+
+        var trigger = ( triggerContainer ) ? triggerContainer : element;
+
+        trigger.waypoint(function() {
+          element.addClass('animated').addClass(animationClass);
+        },{
+          triggerOnce: true,
+          offset: '100%'
+        });
+      });
+    }
+    onScrollInit( $('.animation') );
+    onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
+
+    $('.img-triangle').click(function(event){
+      selectedTriangleNode.css('opacity', '.5');
+      $(this).css('opacity', '1');
+      selectedTriangleNode = $(this);
+
+      selectedTriangleDetails.hide();
+      var detailsId = '#' + event.target.id + '-details';
+      $(detailsId).show();
+      selectedTriangleDetails = $(detailsId);
+    });
+  });
+
+</script>
