@@ -21,10 +21,11 @@ body {
 }
 
 h1 {
-	font-size: 56px;
+	font-size: 66px;
 }
 
 h2 {
+	font-size: 55px;
 	color: orange;
 }
 
@@ -33,6 +34,11 @@ h2 {
 	font-weight: bold;
 	text-align: center;
 	color: #428bca;
+}
+
+.tlink{
+	text-decoration: none;
+	text-align: center;
 }
 
 /* Navbar */
