@@ -35,11 +35,13 @@ npm install -g localtunnel # installs local tunnel (not sure this was needed in 
 npm install # installs the packages for this project
 ```
 
-Build the site, start browser-sync, watch for file changes:
+Build the site and watch for file changes:
 
-```bash
-grunt
-```
+`jekyll build --watch`
+
+In another terminal window start the server:
+
+`jekyll serve`
 
 ## How This App What Built
 
