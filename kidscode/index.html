@@ -199,34 +199,62 @@
     </section>
 
     
- <style>
-.showMe {width: 100%;height: 400px;opacity: 1;}
-.hiding {width: 100%;height: 400px;position: absolute;top: 0;transition: all 3.0s ease-out;-moz-transition: opacity 2.0s;-webkit-transition: opacity 2.0s;-o-transition: opacity 2.0s;opacity: 0;}
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+  .item {width: 100%;height: 400px;}
 </style>
 
-<div style="width:100%;height: 400px;overflow: hidden; position: absolute;">
-    <img class="slide showMe" style="background: url(img/KidsCode_lesson.jpg) center;background-size:cover;"></img>
-    <img class="slide hiding" style="background: url(img/2.jpg) center;background-size:cover;"></img>
-    <img class="slide hiding" style="background: url(img/KidsCode_fun2.png) center;background-size:cover;"></img>
-    <img class="slide hiding" style="background: url(img/Coding_Kid1.jpg) center;background-size:cover;"></img>
-    <img class="slide hiding" style="background: url(img/KidsCode_Teamwork.jpg) center;background-size:cover;"></img>
-    <img class="slide hiding" style="background: url(img/KidsCode_Teambuilding.jpg) center;background-size:cover;"></img>
-    <img class="slide hiding" style="background: url(img/KidsCode_MarchBreak.jpg) center;background-size:cover;"></img>
-
-    <img class="slide hiding" style="background: url(img/KidsCode_Robotics.jpg) center;background-size:cover;"></img>
+<div id="myCarousel" class="carousel slide">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div style="
+    background: url(img/KidsCode_lesson.jpg) center;
+    background-size:cover;
+    " class="item active"></div>
+    <div style="
+    background: url(img/2.jpg) center;
+    background-size:cover;
+    " class="item"></div>
+    <div style="
+    background: url(img/KidsCode_fun2.png) center;
+    background-size:cover;
+    " class="item"></div>
+    <div style="
+    background: url(img/Coding_Kid1.jpg) center;
+    background-size:cover;
+    " class="item"></div>
+    <div style="
+    background: url(img/KidsCode_Teamwork.jpg) center;
+    background-size:cover;
+    " class="item"></div>
+    <div style="
+    background: url(img/KidsCode_Teambuilding.jpg) center;
+    background-size:cover;
+    " class="item"></div>
+    <div style="
+    background: url(img/KidsCode_MarchBreak.jpg) center;
+    background-size:cover;
+    " class="item"></div>
+    <div style="
+    background: url(img/KidsCode_Robotics.jpg) center;
+    background-size:cover;
+    " class="item"></div>
+  </div>
 </div>
 
 <script>
-var slides = document.querySelectorAll('.slide');
-var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,4000);
+$(document).ready(function(){
+  var slideInterval = setInterval(nextSlide,4000);
 
-function nextSlide() {
-  slides[currentSlide].className = "hiding";
-  currentSlide = (currentSlide+1)%slides.length;
-  slides[currentSlide].className = "showMe";
-}
+  function nextSlide() {
+    $("#myCarousel").carousel("next");
+  }
+});
 </script>
+
 
 
     <!-- jQuery -->
