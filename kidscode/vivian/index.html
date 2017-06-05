@@ -1,0 +1,114 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script><!-- jquery -->
+<link rel="stylesheet" type="text/css" href="style1.css">
+
+<div class="header">
+  <img src="images1/logo.png">
+  <div class="nav">
+  <a class="navigation" href="test.html"></a>
+  <a class="navigation" href="test.html"></a>
+  <a class="navigation" href="test.html"></a>
+  <a class="navigation" href="test.html"></a>
+  <a class="navigation" href="test.html"></a>
+  <a class="navigation" href="test.html"></a>
+  </div>
+</div>
+
+<div class="banner"></div>
+
+<div class="services">
+  <div class="services_title">...</div>
+  <div class="seperator1"></div>
+  <div class="perk_wrapper">
+    <div class="perk">
+      <div class="icon1"></div>
+      <div class="perk_title">...</div>
+      <div class="perk_description"></div>
+    </div>
+    <div class="perk">
+      <div class="icon2"></div>
+      <div class="perk_title">...</div>
+      <div class="perk_description"></div>
+    </div>
+    <div class="perk">
+      <div class="icon3"></div>
+      <div class="perk_title">...</div>
+      <div class="perk_description"></div>
+    </div>
+    <div class="perk">
+      <div class="icon4"></div>
+      <div class="perk_title">...</div>
+      <div class="perk_description"></div>
+    </div>
+  </div>
+</div>
+
+<div class="business_wrapper">
+  <div class="business_title">Your Business Name</div>
+  <div class="seperator2"></div>
+  <div class="business_description">...</div>
+</div>
+
+<div class="footer">Copyright of <span class="business_title">...</span> <span class="year"></span></div>
+
+<script>
+var navigation = document.querySelectorAll(" .navigation ");
+var services = document.querySelectorAll(" .services_title ")[0];
+var perk_title = document.querySelectorAll(" .perk_title ");
+var perk_description = document.querySelectorAll(" .perk_description ");
+var business_title = $(".business_title");
+var business_description = document.querySelectorAll(" .business_description ")[0];
+var yearFooter = document.querySelectorAll(" .year ")[0];
+var year = new Date().getFullYear();
+yearFooter.innerHTML = year;
+
+// Business description
+business_title.html("Recipe world");
+business_description.innerHTML = "fun food recipes for you to try free!";
+
+// navigation buttons
+navigation[0].innerHTML = "cake recipes";
+navigation[1].innerHTML = "bbq recipes";
+navigation[2].innerHTML = "friut ideas";
+navigation[3].innerHTML = "Drink ideas and recipes";
+navigation[4].innerHTML = "candy cups/bowl recipe";
+navigation[5].innerHTML = "Snacks ideas";
+
+// "Our Services"
+services.innerHTML = "Services";
+
+// Perk Titles
+
+perk_title[0].innerHTML = "many ingredents cake";
+perk_title[1].innerHTML = "free bbq recipe";
+perk_title[2].innerHTML = "fruit recipes";
+perk_title[3].innerHTML = "free";
+
+// Perk Descriptions
+perk_description[0].innerHTML = "In the end it's delicous";
+perk_description[1].innerHTML = "incase you don't know what to do for your bbq";
+perk_description[2].innerHTML = "fun food ideas for a party";
+perk_description[3].innerHTML = "so you don't have to pay for ";
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
