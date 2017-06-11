@@ -1,0 +1,111 @@
+<link rel="stylesheet" type="text/css" href="style1.css">
+
+<div class="header">
+  <img src="images1/logo.png">
+  <div class="nav">
+  <a class="navigation" href="test.html"></a>
+  <a class="navigation" href="test.html"></a>
+  <a class="navigation" href="test.html"></a>
+  <a class="navigation" href="test.html"></a>
+  <a class="navigation" href="test.html"></a>
+  <a class="navigation" href="test.html"></a>
+  </div>
+</div>
+
+<div class="banner"></div>
+
+<div class="services">
+  <div class="services_title">...</div>
+  <div class="seperator1"></div>
+  <div class="perk_wrapper">
+    <div class="perk">
+      <div class="icon1"></div>
+      <div class="perk_title">...</div>
+      <div class="perk_description"></div>
+    </div>
+    <div class="perk">
+      <div class="icon2"></div>
+      <div class="perk_title">...</div>
+      <div class="perk_description"></div>
+    </div>
+    <div class="perk">
+      <div class="icon3"></div>
+      <div class="perk_title">...</div>
+      <div class="perk_description"></div>
+    </div>
+    <div class="perk">
+      <div class="icon4"></div>
+      <div class="perk_title">...</div>
+      <div class="perk_description"></div>
+    </div>
+  </div>
+</div>
+
+<div class="business_wrapper">
+  <div class="business_title">Hollywood Filmings</div>
+  <div class="seperator2"></div>
+  <div class="business_description">...</div>
+</div>
+
+
+<script>
+// Setting Variables
+var navigation = document.querySelectorAll(" .navigation ");
+var services = document.querySelectorAll(" .services_title ")[0];
+var perk_title = document.querySelectorAll(" .perk_title ");
+var perk_description = document.querySelectorAll(" .perk_description ");
+var business_title = document.querySelectorAll(" .business_title ")[0];
+var business_description = document.querySelectorAll(" .business_description ")[0];
+var yearFooter = document.querySelectorAll(" .year ")[0];
+var year = new Date().getFullYear();
+
+// Business description
+business_title.innerHTML = "Hollywood Filmings";
+business_description.innerHTML = "You can find all of your favourite movies, TV shows, Documentaries and News providers on this very website! Rated best website for providing best media globally.";
+
+// navigation buttons
+navigation[0].innerHTML = "Rated the best movie website";
+navigation[1].innerHTML = "";
+navigation[2].innerHTML = "";
+navigation[3].innerHTML = "";
+navigation[4].innerHTML = "";
+navigation[5].innerHTML = "";
+
+// "Our Services"
+services.innerHTML = "Services";
+
+// Perk Titles
+perk_title[0].innerHTML = "TV Shows";
+perk_title[1].innerHTML = "Movies";
+perk_title[2].innerHTML = "Documentaries";
+perk_title[3].innerHTML = "News";
+
+// Perk Descriptions
+perk_description[0].innerHTML = "all types of TV shows from 1960 to now ";
+perk_description[1].innerHTML = "All of your favourite movies rated from best to least";
+perk_description[2].innerHTML = "follow up on your favourite documentaries";
+perk_description[3].innerHTML = "Catch up on American and Canadian problems";
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
