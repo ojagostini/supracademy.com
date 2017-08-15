@@ -62,28 +62,57 @@ h2 {
 	background-color: transparent;
 }
 
-/* Banner */
-#banner img {
-	min-width: 100%;
+
+
+.wrap{
+    overflow: hidden;
 }
+
+/* Banner */
 #banner {
-	position: relative;
+    background-image: url("../assets/img/SuprAcademy_AppDesign.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 20%;
+
+    /*min-height: 300px;*/
 }
 #banner h4 {
 	font-weight: normal;
 }
 #banner-overlay {
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	z-index: 200;
-	background: rgba(0, 0, 0, .2); /* Fall-back for browsers that don't
-                                    support rgba */
+    padding: 20% 5%;
+	background: rgba(0, 0, 0, .2); /* Fall-back for browsers that don't support rgba */
   	color: white;
-	padding: 20px;
-  box-shadow: 0 1px 0 0 rgba(255,255,255,.35);
+    /*box-shadow: 0 1px 0 0 rgba(255,255,255,.35);*/
 }
+
+#banner h1,
+#banner h2{
+    margin: 0px;
+}
+
+#banner-overlay-title{
+    margin-bottom: 20px;
+}
+
+#banner h2{
+    padding: 10px 14px;
+    font-size: 26px;
+    display: inline-block;
+    color: #fff;
+    background-color: #333;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+}
+
+#banner h2 a{
+    color: #fff;
+}
+
+
+
 
 /* Home */
 .strip {
@@ -232,6 +261,7 @@ address {
 }
 footer {
 	color: #444;
+    padding-top: 10px;
 }
 footer #copyright {
 	margin-top: 10px;
@@ -253,8 +283,14 @@ footer p {
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 	h1 {
-		font-size: 36px;
+		font-size: 40px;
 	}
+    #banner-overlay-title{
+        margin-bottom: 10px;
+    }
+    #banner h2{
+        font-size: 20px;
+    }
 	.strip {
 		padding-top: 25px;
 		padding-bottom: 25px;
@@ -270,17 +306,17 @@ footer p {
 		color: #428bca;
 	}
 
-	#banner-overlay-content {
-		position: absolute;
-		top: 30%;
-		width: 55%;
-	}
-	#banner-overlay h1 {
-		font-size: 24px;
-	}
-	#banner-overlay h2 {
-		font-size: 18px;
-	}
+	/*#banner-overlay-content {*/
+		/*position: absolute;*/
+		/*top: 30%;*/
+		/*width: 55%;*/
+	/*}*/
+	/*#banner-overlay h1 {*/
+		/*font-size: 24px;*/
+	/*}*/
+	/*#banner-overlay h2 {*/
+		/*font-size: 18px;*/
+	/*}*/
 
 	#the-how .card {
 		height: 400px;
@@ -362,16 +398,16 @@ footer p {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	#banner-overlay-content {
-		top: 15%;
-		width: 60%;
-	}
-	#banner-overlay h1 {
-		font-size: 56px;
-	}
-	#banner-overlay h2 {
-		font-size: 24px;
-	}
+	/*#banner-overlay-content {*/
+		/*top: 15%;*/
+		/*width: 60%;*/
+	/*}*/
+	/*#banner-overlay h1 {*/
+		/*font-size: 56px;*/
+	/*}*/
+	/*#banner-overlay h2 {*/
+		/*font-size: 24px;*/
+	/*}*/
 	.large-text{
 		font-size: 44px;
 	}
@@ -401,9 +437,9 @@ footer p {
 	#triangle-wrapper {
 		width: 100%;
 	}
-	#banner-overlay h2 {
-		font-size: 36px;
-	}
+	/*#banner-overlay h2 {*/
+		/*font-size: 36px;*/
+	/*}*/
 	#pricing, #faq, #contact {
 		padding-top: 40px;
 	}
@@ -417,9 +453,9 @@ footer p {
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	#banner-overlay-content {
-		top: 35%;
-	}
+	/*#banner-overlay-content {*/
+		/*top: 35%;*/
+	/*}*/
 }
 
 
