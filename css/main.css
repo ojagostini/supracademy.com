@@ -205,7 +205,7 @@ h2 {
 
 /* Learn More */
 #learn-more .row {
-	margin-bottom: 40px;
+	/*margin-bottom: 40px;*/
 }
 #learn-more h1 {
 	margin-bottom: 80px;
@@ -259,6 +259,8 @@ address {
 .navbar {
 	min-height: 40px;
 }
+
+/*
 footer {
 	color: #444;
     padding-top: 10px;
@@ -269,6 +271,191 @@ footer #copyright {
 footer p {
 	margin-bottom: 0px;
 }
+*/
+
+/* ===================================== */
+/* new footer by keita                   */
+/* ===================================== */
+#footer {
+	background: #222;
+	padding: 6em 1em 4em;
+}
+
+#footer .container{
+	padding: 0px;
+}
+
+#footer .row{
+	margin: 0px;
+}
+
+#footer .icon {
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
+}
+
+#footer .icon:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+#footer .icon:active, 
+#footer .icon:hover {
+	text-decoration: none;
+}
+
+#footer .icon > .label {
+	display: none;
+}
+
+#footer .icon.rounded {
+	background-color: #383b43;
+	border-radius: 100%;
+	color: #ffffff;
+	display: inline-block;
+	height: 3.25em;
+	line-height: 3.25em;
+	text-align: center;
+	width: 3.25em;
+}
+
+#footer .icon.rounded.big {
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+}
+
+#footer .icon.rounded.fa-twitter {
+	background-color: #2daae4;
+}
+
+#footer .icon.rounded.fa-facebook {
+	background-color: #39599f;
+}
+
+#footer .icon.rounded.fa-google-plus {
+	background-color: #c91e1f;
+}
+
+#footer .icon.rounded.fa-dribbble {
+	background-color: #c4376b;
+}
+
+#footer .icon.rounded.fa-instagram {
+	background-color: #31516a;
+}
+
+#footer .icon.rounded.fa-tumblr, 
+#footer .icon.rounded.fa-linkedin {
+	background-color: #31516a;
+}
+
+#footer .icon.rounded.fa-rss {
+	background-color: #f2600b;
+}
+
+#footer h2, #footer h3, #footer h4 {
+	color: #ffffff;
+}
+
+#footer p, #footer a, #footer li {
+	color: #cdced0;
+}
+
+#footer .links {
+	border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+	margin-bottom: 4em;
+	padding-bottom: 1em;
+}
+
+#footer .copyright {
+	margin-top: 0.65em;
+	padding: 0;
+}
+
+	#footer .copyright li {
+		color: #858585;
+		display: inline-block;
+		list-style: none;
+		margin-left: 0.5em;
+		padding-left: 0.5em;
+	}
+
+		#footer .copyright li:first-child {
+			margin-left: 0;
+			padding-left: 0;
+		}
+
+	#footer .copyright a {
+		color: #858585;
+	}
+
+#footer .icons {
+	text-align: right;
+	cursor: default;
+    list-style: none;
+    padding-left: 0;
+    margin: 1em 0;
+}
+
+#footer .icons li{
+	display: inline-block;
+    padding: 0 1em 0 0;
+}
+
+
+#footer a.icon {
+	color: #ffffff;
+	font-size: 0.65em;
+	height: 4em;
+	line-height: 4em;
+	width: 4em;
+	cursor: pointer;
+}
+
+#footer a.icon:before {
+	font-size: 2em;
+}
+
+
+ul#footer__company{
+	text-align: left;
+    margin-top: 0.65em;
+	list-style: none;
+	padding: 0px;
+}
+
+ul#footer__company li{
+	padding: 0px;
+	list-style: none;
+	font-size: 1.0em;
+	line-height: 2.0;
+	display: inline-block;
+	margin-right: 20px
+}
+
+ul#footer__company:after{
+	content: '';
+	display:block;
+	clear: both;
+}
+
+#footer h3{
+	text-align: left;
+	margin: 0px;
+}
+
+/* ===================================== */
+/* new footer by keita                   */
+/* ===================================== */
+
+
+
+
 
 /* Animation */
 .animation{
@@ -292,8 +479,8 @@ footer p {
         font-size: 20px;
     }
 	.strip {
-		padding-top: 25px;
-		padding-bottom: 25px;
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 	.fa-5x {
 		font-size: 4em;
